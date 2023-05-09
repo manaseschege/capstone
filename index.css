@@ -1,0 +1,165 @@
+body {
+  box-sizing: border-box;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
+  color: rgb(14, 12, 12);
+  background-color: palevioletred;
+
+}
+
+#img {
+  width: 100%;
+
+}
+
+#form {
+  margin-top: 48px;
+}
+
+.header {
+  background-color: #c3eded;
+  padding: 10px 20px;
+  margin: 0px;
+
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__list {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav__item {
+  margin: 0 10px;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #2C3E50;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.nav__link:hover {
+  color: #3498DB;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.booking-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.booking-form input {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.booking-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.booking-form button:hover {
+  background-color: #0062cc;
+}
+
+.landing-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.header h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 20px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 0;
+}
+
+.hero-section img {
+  width: 50%;
+  border-radius: 10px;
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+}
